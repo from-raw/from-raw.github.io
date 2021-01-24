@@ -168,12 +168,13 @@ input:focus {
 }
 
 .toDoList div li button:hover {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  bottom: 1px;
 }
 
 .toDoList div li button {
   position: absolute;
-  right: 28px;
+  right: 30px;
   color: #d6d6d6;
   font-weight: bold;
   cursor: pointer;
@@ -181,8 +182,12 @@ input:focus {
 
 .toDoList div li button:last-child {
   position: absolute;
-  right: 10px;
+  right: 8px;
   color: #ff4a4a;
+}
+
+.toDoList div .finishedList li {
+  text-decoration: line-through;
 }
 
 /* 05 */

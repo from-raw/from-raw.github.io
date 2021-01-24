@@ -85,8 +85,8 @@ function paintPending(text) {
   const finishedBtn = document.createElement("button");
   const span = document.createElement("span");
 
-  deleteBtn.innerText = "X";
-  finishedBtn.innerText = "V";
+  deleteBtn.innerText = "❌";
+  finishedBtn.innerText = "✅";
 
   deleteBtn.addEventListener("click", deleteToDo);
   finishedBtn.addEventListener("click", finishedToDo);
@@ -112,8 +112,8 @@ function paintFinished(text) {
   const deleteBtn = document.createElement("button");
   const pendingBtn = document.createElement("button");
   const span = document.createElement("span");
-  deleteBtn.innerText = "X";
-  pendingBtn.innerText = "<";
+  deleteBtn.innerText = "❌";
+  pendingBtn.innerText = "🔙";
   deleteBtn.addEventListener("click", deleteToDo);
   pendingBtn.addEventListener("click", pendingToDo);
   span.innerText = text;
