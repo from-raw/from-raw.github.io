@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momotum</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <title>Momotum</title>
+</head>
+<body>
+  <div class="total">
+    <!-- 01) 시계 부분 -->
+    <div class="js-clock">
+      <h1>
+        00:00:00
+      </h1>
+    </div>
+    <!-- 02) 이름 입력 받는 부분 -->
+    <form class="js-form form">
+      <h2>NICE TO MEET YOU!</h2>
+      <input type="text" placeholder="What is your name?" />
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <!-- 05) 날씨 입력 -->
+    <span class="js-weather"></span>
+    <!-- 03) to do list -->
+    <!--
+    <form class="js-toDoForm">
+      <input type="text" placeholder="Write a to do" />
+    </form>
+    <ul class="js-toDoList">
+    </ul>
+    -->
+    <form class="toDoForm">
+      <input type="text" placeholder="Add task">
+    </form>
+    <div class="toDoList">
+      <div class="pending-wrap">
+        <h2 class="pending">
+          |Pending|
+        </h2>
+        <ul class="pendingList">
+        </ul>
+      </div>
+      <div class="finished-wrap">
+        <h2 class="finished">
+          |Finished|
+        </h2>
+        <ul class="finishedList">
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- js 파일 -->
+  <!-- 01 -->
+  <script src="./js/clock.js"></script>
+  <!-- 02 -->
+  <script src="./js/greeting.js"></script>
+  <!-- 03 -->
+  <!-- <script src="./js/todo.js"></script> -->
+  <script src="./js/todoVer2.js"></script>
+  <!-- 04 -->
+  <script src="./js/bg.js"></script>
+  <!-- 05 -->
+  <script src="./js/weather.js"></script>
+</body>
+</html>
