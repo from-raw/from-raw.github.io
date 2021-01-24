@@ -168,7 +168,7 @@ input:focus {
 }
 
 .toDoList div li button:hover {
-  border-bottom: 2px solid #ffffff;
+  /* border-bottom: 2px solid #ffffff; */
   bottom: 1px;
 }
 
